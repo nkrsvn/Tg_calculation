@@ -19,4 +19,4 @@ Scripts for polymers glass transition temperature calculation using lammps.
    
 4. Run run_MD_Tg_cluster.py - it runs the calculations.
 
-5. Run Tg_analysis.ipynb, choosing the right pressure - it processes the results of the calculations, makes graph and gives you Tg value.
+5. Put Tganalysis.ipynb in the Main/Cooling directory and run it, choosing the right pressure - it processes the results of the calculations, makes graph and gives you Tg value.
