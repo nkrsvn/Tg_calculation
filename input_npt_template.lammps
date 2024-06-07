@@ -14,7 +14,7 @@
    pair_modify     tail yes mix arithmetic
 
    # read the original positions for the atoms of the molecule, as well as the same parameter file as previously
-   read_data npt600.data
+   read_data nvt600.data
 
    fix      1 all npt temp $TTTEEEMMMPPP $TTTEEEMMMPPP 100 iso $PPPREESSS $PPPREESSS 1000
    dump mydmp all atom 1000 npt600_$PPPREESSS.lammpstrj
